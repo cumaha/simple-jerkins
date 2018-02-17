@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-node('master') {
+node('docker') {
     try {
         stage('build') {
             checkout scm
